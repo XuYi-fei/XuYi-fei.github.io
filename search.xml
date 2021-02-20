@@ -58,37 +58,6 @@
     
     
     <entry>
-      <title>个人博客搭建</title>
-      <link href="jiao-cheng/ge-ren-bo-ke-hexo-da-jian/"/>
-      <url>jiao-cheng/ge-ren-bo-ke-hexo-da-jian/</url>
-      
-        <content type="html"><![CDATA[<h1 id="个人博客的配置教程"><a href="#个人博客的配置教程" class="headerlink" title="个人博客的配置教程"></a>个人博客的配置教程</h1><p>此教程并非完全原创，也有白嫖的，但是经过个人亲自配置过的。教程针对windows系统，Linux系统课参考</p><p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">hexo史上最全搭建教程</a></p><p>主要流程是 <strong>安装Hexo, 配置域名, 搭建自己的博客,根据框架自定义修改</strong></p><hr><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h4><p>不多解释，如果你还不知道Git是什么，那可以和<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖老师</a>聊一聊，总之配置的过程不是很难，win下去官网下载Git即可。<a href="https://gitforwindows.org/">Download git</a></p><p><strong>使用<code>git --version</code>查看版本</strong>   如果正确安装应该如下显示一个版本号：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> --version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>git version 2.27.0.windows.1</code></p><h4 id="2-安装nodejs"><a href="#2-安装nodejs" class="headerlink" title="2. 安装nodejs"></a>2. 安装nodejs</h4><p>就像写C需要MinGW，写python一样安装python一样，这里也要安装相应的库，否则就会如各种DLL模块丢失出现的情况一样。依然是提供windows解决方案。<a href="https://nodejs.org/en/download/">windows NodeJS下载</a> 选择LTS版本下载即可。</p><p><strong>使用<code>node -v</code></strong> 和 <strong><code>npm -v</code>查看版本，使用刚刚安装好的git bash就好了（之后也都是）</strong></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>6.14.11</code></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">node -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>v14.15.5</code></p><h4 id="3-安装hexo"><a href="#3-安装hexo" class="headerlink" title="3. 安装hexo"></a>3. 安装hexo</h4><p>创建 文件夹，然后进入这个文件夹，右键使用<strong>git bash</strong>打开，然后开始运行命令</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>使用<code>hexo -v</code>查看版本</strong></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g hexo-clihexo -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><code>INFO  Validating config hexo: 5.3.0 hexo-cli: 4.2.0 os: Windows_NT 10.0.18363 win32 x64 node: 14.15.5 v8: 8.4.371.19-node.18 uv: 1.40.0 zlib: 1.2.11 brotli: 1.0.9 ares: 1.16.1 modules: 83 nghttp2: 1.41.0 napi: 7 llhttp: 2.1.3 openssl: 1.1.1i cldr: 37.0 icu: 67.1 tz: 2020a unicode: 13.0</code></p><p>这样就安装完成了。</p><h4 id="4-hexo初始化（基本配置）"><a href="#4-hexo初始化（基本配置）" class="headerlink" title="4. hexo初始化（基本配置）"></a>4. hexo初始化（基本配置）</h4><p>“myblog”为自己选的名字，会创建一个同名的文件夹</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo init myblog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> myblog<span class="token function">npm</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>完成后执行</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo ghexo server<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>此时在本机的<code>localhost:4000</code>已经生成了网页</p><h4 id="5-GitHub仓库"><a href="#5-GitHub仓库" class="headerlink" title="5. GitHub仓库"></a>5. GitHub仓库</h4><p>创建一个新仓库，名字要和用户名一样并且加后缀，示例：</p><p>我的github账户名是<strong>XuYi-fei</strong>,新建的仓库名称那一栏就要输<strong>XuYi-fei.github.io</strong></p><p>按照教程添加<a href="../git-github-pei-zhi/">公钥</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-            <tag> 博客 </tag>
-            
-            <tag> 个人网站 </tag>
-            
-            <tag> 报错 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>git  github相关配置教程(非语法)</title>
       <link href="jiao-cheng/git-github-pei-zhi/"/>
       <url>jiao-cheng/git-github-pei-zhi/</url>
@@ -107,11 +76,42 @@
             
             <tag> 教程 </tag>
             
-            <tag> 报错 </tag>
-            
             <tag> git </tag>
             
             <tag> github </tag>
+            
+            <tag> 报错 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人博客搭建</title>
+      <link href="jiao-cheng/ge-ren-bo-ke-hexo-da-jian/"/>
+      <url>jiao-cheng/ge-ren-bo-ke-hexo-da-jian/</url>
+      
+        <content type="html"><![CDATA[<h1 id="个人博客的配置教程"><a href="#个人博客的配置教程" class="headerlink" title="个人博客的配置教程"></a>个人博客的配置教程</h1><p>此教程并非完全原创，也有白嫖的，但是经过个人亲自配置过的。教程针对windows系统，Linux系统课参考</p><p><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">hexo史上最全搭建教程</a></p><p>主要流程是 <strong>安装Hexo, 配置域名, 搭建自己的博客,根据框架自定义修改</strong></p><hr><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h4><p>不多解释，如果你还不知道Git是什么，那可以和<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖老师</a>聊一聊，总之配置的过程不是很难，win下去官网下载Git即可。<a href="https://gitforwindows.org/">Download git</a></p><p><strong>使用<code>git --version</code>查看版本</strong>   如果正确安装应该如下显示一个版本号：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> --version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>git version 2.27.0.windows.1</code></p><h4 id="2-安装nodejs"><a href="#2-安装nodejs" class="headerlink" title="2. 安装nodejs"></a>2. 安装nodejs</h4><p>就像写C需要MinGW，写python一样安装python一样，这里也要安装相应的库，否则就会如各种DLL模块丢失出现的情况一样。依然是提供windows解决方案。<a href="https://nodejs.org/en/download/">windows NodeJS下载</a> 选择LTS版本下载即可。</p><p><strong>使用<code>node -v</code></strong> 和 <strong><code>npm -v</code>查看版本，使用刚刚安装好的git bash就好了（之后也都是）</strong></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>6.14.11</code></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">node -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>v14.15.5</code></p><h4 id="3-安装hexo"><a href="#3-安装hexo" class="headerlink" title="3. 安装hexo"></a>3. 安装hexo</h4><p>创建 文件夹，然后进入这个文件夹，右键使用<strong>git bash</strong>打开，然后开始运行命令</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>使用<code>hexo -v</code>查看版本</strong></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g hexo-clihexo -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><code>INFO  Validating config hexo: 5.3.0 hexo-cli: 4.2.0 os: Windows_NT 10.0.18363 win32 x64 node: 14.15.5 v8: 8.4.371.19-node.18 uv: 1.40.0 zlib: 1.2.11 brotli: 1.0.9 ares: 1.16.1 modules: 83 nghttp2: 1.41.0 napi: 7 llhttp: 2.1.3 openssl: 1.1.1i cldr: 37.0 icu: 67.1 tz: 2020a unicode: 13.0</code></p><p>这样就安装完成了。</p><h4 id="4-hexo初始化（基本配置）"><a href="#4-hexo初始化（基本配置）" class="headerlink" title="4. hexo初始化（基本配置）"></a>4. hexo初始化（基本配置）</h4><p>“myblog”为自己选的名字，会创建一个同名的文件夹</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo init myblog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> myblog<span class="token function">npm</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>完成后执行</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo ghexo server<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>此时在本机的<code>localhost:4000</code>已经生成了网页</p><h4 id="5-GitHub仓库"><a href="#5-GitHub仓库" class="headerlink" title="5. GitHub仓库"></a>5. GitHub仓库</h4><p>创建一个新仓库，名字要和用户名一样并且加后缀，示例：</p><p>我的github账户名是<strong>XuYi-fei</strong>,新建的仓库名称那一栏就要输<strong>XuYi-fei.github.io</strong></p><p>按照教程添加<a href="../git-github-pei-zhi/">公钥</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 报错 </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 个人网站 </tag>
             
         </tags>
       
