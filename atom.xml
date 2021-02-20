@@ -3,11 +3,11 @@
   <title>小灰飞的辣鸡站</title>
   
   <subtitle>小灰飞的学习经验 踩坑记录</subtitle>
-  <link href="https://www.xuyi-fei.xyz/atom.xml" rel="self"/>
+  <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/atom.xml" rel="self"/>
   
-  <link href="https://www.xuyi-fei.xyz/"/>
+  <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/"/>
   <updated>2021-02-17T16:00:00.000Z</updated>
-  <id>https://www.xuyi-fei.xyz/</id>
+  <id>https://github.com/XuYi-fei/XuYi-fei.github.io/</id>
   
   <author>
     <name>小灰飞</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>算法总览</title>
-    <link href="https://www.xuyi-fei.xyz/suan-fa/suan-fa-zong-lan/"/>
-    <id>https://www.xuyi-fei.xyz/suan-fa/suan-fa-zong-lan/</id>
+    <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/suan-fa-zong-lan/"/>
+    <id>https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/suan-fa-zong-lan/</id>
     <published>2021-02-19T08:50:10.889Z</published>
     <updated>2021-02-17T16:00:00.000Z</updated>
     
@@ -35,19 +35,19 @@
     
     
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="总览" scheme="https://www.xuyi-fei.xyz/tags/%E6%80%BB%E8%A7%88/"/>
+    <category term="总览" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E6%80%BB%E8%A7%88/"/>
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>路径规划的相关算法(2) PRM</title>
-    <link href="https://www.xuyi-fei.xyz/suan-fa/lu-jing-gui-hua-suan-fa-2/"/>
-    <id>https://www.xuyi-fei.xyz/suan-fa/lu-jing-gui-hua-suan-fa-2/</id>
+    <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/lu-jing-gui-hua-suan-fa-2/"/>
+    <id>https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/lu-jing-gui-hua-suan-fa-2/</id>
     <published>2021-02-19T07:31:49.362Z</published>
     <updated>2021-02-17T16:00:00.000Z</updated>
     
@@ -65,19 +65,19 @@
     
     
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="路径规划" scheme="https://www.xuyi-fei.xyz/tags/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/"/>
+    <category term="路径规划" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>个人博客搭建</title>
-    <link href="https://www.xuyi-fei.xyz/jiao-cheng/ge-ren-bo-ke-hexo-da-jian/"/>
-    <id>https://www.xuyi-fei.xyz/jiao-cheng/ge-ren-bo-ke-hexo-da-jian/</id>
+    <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/jiao-cheng/ge-ren-bo-ke-hexo-da-jian/"/>
+    <id>https://github.com/XuYi-fei/XuYi-fei.github.io/jiao-cheng/ge-ren-bo-ke-hexo-da-jian/</id>
     <published>2021-02-19T05:31:46.000Z</published>
     <updated>2021-02-19T09:00:45.129Z</updated>
     
@@ -92,23 +92,23 @@
     
     
     
-    <category term="教程" scheme="https://www.xuyi-fei.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://www.xuyi-fei.xyz/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="博客" scheme="https://www.xuyi-fei.xyz/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="个人网站" scheme="https://www.xuyi-fei.xyz/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    <category term="个人网站" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
-    <category term="报错" scheme="https://www.xuyi-fei.xyz/tags/%E6%8A%A5%E9%94%99/"/>
+    <category term="报错" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E6%8A%A5%E9%94%99/"/>
     
   </entry>
   
   <entry>
     <title>git  github相关配置教程(非语法)</title>
-    <link href="https://www.xuyi-fei.xyz/jiao-cheng/git-github-pei-zhi/"/>
-    <id>https://www.xuyi-fei.xyz/jiao-cheng/git-github-pei-zhi/</id>
+    <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/jiao-cheng/git-github-pei-zhi/"/>
+    <id>https://github.com/XuYi-fei/XuYi-fei.github.io/jiao-cheng/git-github-pei-zhi/</id>
     <published>2021-02-19T05:31:46.000Z</published>
     <updated>2021-02-19T09:00:46.594Z</updated>
     
@@ -124,23 +124,23 @@
     
     
     
-    <category term="教程" scheme="https://www.xuyi-fei.xyz/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://www.xuyi-fei.xyz/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="报错" scheme="https://www.xuyi-fei.xyz/tags/%E6%8A%A5%E9%94%99/"/>
+    <category term="报错" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E6%8A%A5%E9%94%99/"/>
     
-    <category term="git" scheme="https://www.xuyi-fei.xyz/tags/git/"/>
+    <category term="git" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/git/"/>
     
-    <category term="github" scheme="https://www.xuyi-fei.xyz/tags/github/"/>
+    <category term="github" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>路径规划的相关算法(1)RRT系列</title>
-    <link href="https://www.xuyi-fei.xyz/suan-fa/lu-jing-gui-hua-suan-fa-1/"/>
-    <id>https://www.xuyi-fei.xyz/suan-fa/lu-jing-gui-hua-suan-fa-1/</id>
+    <link href="https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/lu-jing-gui-hua-suan-fa-1/"/>
+    <id>https://github.com/XuYi-fei/XuYi-fei.github.io/suan-fa/lu-jing-gui-hua-suan-fa-1/</id>
     <published>2021-02-17T12:25:07.175Z</published>
     <updated>2021-02-17T16:00:00.000Z</updated>
     
@@ -158,12 +158,12 @@
     
     
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="https://www.xuyi-fei.xyz/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="路径规划" scheme="https://www.xuyi-fei.xyz/tags/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/"/>
+    <category term="路径规划" scheme="https://github.com/XuYi-fei/XuYi-fei.github.io/tags/%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
